@@ -1,0 +1,81 @@
+{
+    "intents": [{
+            "tag": "greeting",
+            "patterns": ["Hi there", "How are you", "Is anyone there?", "Hey", "Hola", "Hello", "Good day"],
+            "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+            "context": [""]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+            "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+            "context": [""]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+            "responses": ["Happy to help!", "Any time!", "My pleasure"],
+            "context": [""]
+        },
+        {
+            "tag": "noanswer",
+            "patterns": [],
+            "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+            "context": [""]
+        },
+        {
+            "tag": "options",
+            "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+            "responses": ["Hi, I can provide you up with the information about Hamirpur's Location, Weather and Connectivity, Chairperson and Director of the Institute, Accomodation Facilities and Hostels, Placements Info, Various Programmes and Labs offered by the various Departments, various Technical, Cultural, and Sports Activities, Clubs, Events, and Fests Information. What help do you want?"],
+            "context": [""]
+        },
+        {
+            "tag": "city_location",
+            "patterns": ["What is the location of the college?", "What are te nearest places ?"],
+            "responses": ["The NIT Hamirpur campus is situated at Anu in Hamirpur district of Himachal Pradesh and is nearly 4 Kms away from main bus stand of Hamirpur on Hamirpur-Tauni Devi road. The city of Hamirpur is well connected with the rest of the country by road. Hamirpur is at a distance of about 450 Kms from Delhi and 200 Kms from Chandigarh. Nearest broad gauge railway junction is at Una(Himachal Pradesh), at a distance of around 80 Kms from Hamirpur.Una is well linked to all parts of country and journey is of nine hours from Old Delhi Railway Station.Taxi / Bus services are available from Hamirpur to Una.To find details about train service from different cities towards Una, one can visit http: //www.indianrail.gov.in/. The nearest airport is at Dharamshala(Gaggal, District Kangra) which is about 75 Kms(02 Hours) from Hamirpur, Chandigarh International Airport is at about 200 Kms(About 04 Hours) from here."],
+            "context": [""]
+        },
+        {
+            "tag": "city_weather",
+            "patterns": ["What are the climatic conditions of Hamirpur?", "What are the weather conditions of Hamirpur?"],
+            "responses": ["Summers of Hamirpur are hot and humid. The temperature ranges from 22°C to 38°C in the months of April to June. July marks the beginning of Monsoon season in Hamirpur and lasts till early September. The place looks beautifully fresh having been washed by the rains. Winters approach Hamirpur in November and lasts till February. The climate is pleasantly cool and the temperature ranges from 19°C to 32°C."],
+            "context": [""]
+        },
+        {
+            "tag": "institute_director",
+            "patterns": ["Who is the director of the Institute?", "What is the name of the director?"],
+            "responses": ["Prof. Lalit Kumar Awasthi"],
+            "context": [""]
+        },
+        {
+            "tag": "institute_chairperson",
+            "patterns": ["Who is the Chairperson of the institute?", "What is the name of the chairperson?"],
+            "responses": ["Prof. Chandra Shakher"],
+            "context": [""]
+        },
+        {
+            "tag": "institute_departments",
+            "patterns": ["How many various different departments are there in the college or institute?", "What all departments are there in the college or institute?"],
+            "responses": ["Engineering Departments: Computer Science and Engineering, Civil Engineering, Chemical Engineering, Electronics and Communication Engineering, Electrical Engineering, Mechanical Engineering, Material Science and Engineering, Sciences: Chemistry, Mathematics and Scientific Computing, Physics and Photonics science, Others: Architecture, Humanities, Management Studies"],
+            "context": [""]
+        },
+        {
+            "tag": "institute_placements",
+            "patterns": ["What are the average and highest packages of the college or institute?"],
+            "responses": ["The highest package has reached up to Rs. 120.0 Lacs Per Annum for the Computer Science & Engineering student. The placement index for the session 2018-19 is culminated as 86%. The Average package offered for the session 2018 - 2019 is 6.78 Lacs PA."],
+            "context": [""]
+        },
+        {
+            "tag": "institute_hostels",
+            "patterns": ["How many hostels are there in the college or institute?"],
+            "responses": ["National Institute of Technology Hamirpur is a residential institution and all the students are normally required to stay in the hostels. Separate hostel facilities are available for boys and girls students. At present, there are 08 hostels for boys and 04 hostels for girls. The hostels have furnished dining hall facility. The hostels are well equipped with basic facilities like geysers in every bathroom, water cooler and deep freezer. Besides this, the internet and LED facility is also available in the hostel. The hostel has a big recreation hall which caters to the needs of indoor games like, badminton, Table Tennis, etc. The Volleyball and Basketball Courts are also available in some hostels."],
+            "context": [""]
+        },
+        {
+            "tag": "programmes_computerscience",
+            "patterns": ["What are the academic programmes offered by the Deparrment of Computer Science?"],
+            "responses": ["B.Tech. in Computer Science & Engineering (Four Years), Dual Degree in Computer Science & Engineering[B.Tech. + M.Tech.](Five Years), M.Tech.in Computer Science & Engineering(Two Years), M.Tech.in Mobile Computing(Two Years), Ph.D.in Computer Science & Engineering "],
+            "context": [""]
+        }
+    ]
+}

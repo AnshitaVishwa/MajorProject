@@ -30,5 +30,7 @@ Make sure you have all the dependencies installed.
 7. Here You Go :)
 8. You can ask any Query/FAQ's related to NITH.
 
-![](https://media.giphy.com/media/H06e3T0nzKvAGYiuN8/giphy.gif)
 ```
+
+![](https://media.giphy.com/media/H06e3T0nzKvAGYiuN8/giphy.gif)
+
